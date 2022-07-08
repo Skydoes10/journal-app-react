@@ -45,7 +45,7 @@ export const RegisterPage = () => {
 				<Grid container>
                     <Grid item xs={12} sx={{ mt: 2 }}>
 						<TextField
-							laber="Fullname"
+							label="Fullname"
 							type="text"
 							placeholder="Fullname"
 							fullWidth
@@ -59,7 +59,7 @@ export const RegisterPage = () => {
 
 					<Grid item xs={12} sx={{ mt: 2 }}>
 						<TextField
-							laber="Email"
+							label="Email"
 							type="email"
 							placeholder="Email"
 							fullWidth
@@ -73,7 +73,7 @@ export const RegisterPage = () => {
 
 					<Grid item xs={12} sx={{ mt: 2 }}>
 						<TextField
-							laber="Password"
+							label="Password"
 							type="password"
 							placeholder="Password"
 							fullWidth
